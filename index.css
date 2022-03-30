@@ -229,3 +229,27 @@ padding-left: 15%;
 }
 
 
+/* services page*/
+.all{
+  display: grid;
+  gap: 0;
+
+}
+.top-right{
+  border-style: solid;
+  border-color: red;
+}
+.top-left{
+  border-style: solid;
+  border-color: blue;
+}
+.bottom-right{
+  border-style: solid;
+  border-color: yellow;
+}
+.bottom-left{
+  border-style: solid;
+  border-color: green;
+}
+
+
