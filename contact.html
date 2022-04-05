@@ -14,16 +14,14 @@
         <a class="active" href="contact.html">Contact</a>
         <a href="about.html">About</a>
       </div> 
-      <div>
-          <h1>PICTURE BOARD</h1>
+      <div class="up">
+          <h1 class="board">PICTURE BOARD</h1><br>
           <h3>we're here to help!</h3>
+          <h3 id="span">Let's start by getting to know you better.&#128522;</h3><br>
       </div>
-      <div>
-          <h3>Greetings from PICTURE BOARD</h3>
-      </div>
-      <div>
-          <h3>Let's start by getting to know you better.&#128522;</h3><br>
+      <div class="survey">
           <form id="survey-form">
+            <div class="yo">
             <label for="name" id="name-label">NAME</label><br>
             <input id="name" type="text" placeholder="enter name" required>
             <br>
@@ -39,18 +37,21 @@
               <option value="asia">Asia</option>
               <option value="antartica">Antartica</option>
               <option value="australia">Australia</option>
-            </select><br><br>
+            </select></div><br><br>
             
-            <fieldset>
-              <legend>Type of images desired</legend>
-              <label for="landscape" id="landscape">LANDSCAPE</label>
-              <input id="landscape" type="checkbox" name="type" value="landscape">
-              <label for="city" id="city">CITY IMAGES</label>
+            <fieldset class="check-boxes">
+              <legend>TYPE OF IMAGES DESIRED</legend>
+              <div><label for="landscape" id="landscape" class="in">Landscape</label>
+              <input id="landscape" type="checkbox" name="type" value="landscape" class="in">
+            </div>
+              <div><label for="city" id="city">City images</label>
               <input id="city" type="checkbox" name="type" value="city">
-              <label for="paintings" id="paintings">PAINTINGS AND DRAWINGS</label>
-              <input id="paintings" type="checkbox" name="type" value="paintings">                                   <label for="black" id="black">BLACK AND WHITE IMAGES</label>
-              <input id="black" type="checkbox" name="type" value="black"><br><br>
-              <label for="comments" id="comments">OTHER IMAGES:</label>
+            </div>
+              <div><label for="paintings" id="paintings">Paintings and drawings</label>
+              <input id="paintings" type="checkbox" name="type" value="paintings">           </div>                     <div><label for="black" id="black">Black and white images</label>
+              <input id="black" type="checkbox" name="type" value="black">
+            </div><br>
+              <label for="comments" id="comments">Other images:</label>
               <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
             </fieldset>
             <input type="submit" id="submit" value="Submit information">
